@@ -1,3 +1,48 @@
-h2 {
+* {
+    width: 600px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1, h2, h4 {
     color: darkolivegreen;
+}
+
+h1, h2, h3, h4 {
+    
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+}
+
+.master-padding {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.recipe-image {
+    width: 600px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.recipe-description {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-style: italic;
+}
+
+.front-page-title {
+    font-size: 32px;
+    text-align: center;
+}
+
+.front-page-bulleted-list li {
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
